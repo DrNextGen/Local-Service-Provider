@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+</head>
+<body>
+    <form action="php/edit.php" method="POST">
+        <label for="current_username">Current Username:</label>
+        <input type="text" id="current_uname" name="current_uname" required><br>
+
+        <label for="current_password">Current Password:</label>
+        <input type="password" id="current_pass" name="current_pass" required><br>
+
+        <hr>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fname" name="fullname" required><br>
+
+        <label for="username">New Username:</label>
+        <input type="text" id="uname" name="username" required><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br>
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="text" id="mpno" name="mobile" required><br>
+
+        <label for="new_password">New Password (optional):</label>
+        <input type="password" id="new_password" name="new_password"><br>
+
+        <input type="submit" value="Update Profile">
+    </form>
+</body>
+</html>
